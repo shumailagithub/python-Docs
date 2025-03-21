@@ -1634,5 +1634,168 @@ print(city)  # New York
 ---
 
 
+ Exception Errors with their definitions, one-line examples, and explanations:
+
+SyntaxError:
+
+Definition: Occurs when the code has incorrect syntax.
+
+Example: print("Hello World"
+
+Explanation: Missing closing parenthesis.
+
+IndentationError:
+
+Definition: Raised when indentation is not properly used.
+
+Example: if True: print("No indent")
+
+Explanation: Improper indentation in a block.
+
+NameError:
+
+Definition: Happens when a variable or function name is not found.
+
+Example: print(undefined_variable)
+
+Explanation: Using a variable that hasn’t been defined.
+
+TypeError:
+
+Definition: Occurs when an operation is performed on an inappropriate type.
+
+Example: "5" + 5
+
+Explanation: Adding a string and an integer.
+
+ValueError:
+
+Definition: Raised when a function receives an argument of the correct type but an inappropriate value.
+
+Example: int("abc")
+
+Explanation: Converting a non-numeric string to an integer.
+
+IndexError:
+
+Definition: Occurs when trying to access an index that is out of range.
+
+Example: my_list = [1, 2]; print(my_list[2])
+
+Explanation: Accessing an index that doesn’t exist.
+
+KeyError:
+
+Definition: Raised when a dictionary key is not found.
+
+Example: my_dict = {"a": 1}; print(my_dict["b"])
+
+Explanation: Accessing a dictionary key that doesn’t exist.
+
+AttributeError:
+
+Definition: Happens when an attribute reference or assignment fails.
+
+Example: my_list = [1, 2]; my_list.appendx(3)
+
+Explanation: Calling a non-existent method.
+
+ImportError:
+
+Definition: Occurs when an imported module or name is not found.
+
+Example: import non_existent_module
+
+Explanation: Importing a module that doesn’t exist.
+
+ZeroDivisionError:
+
+Definition: Raised when division or modulo by zero is performed.
+
+Example: 5 / 0
+
+Explanation: Dividing a number by zero.
+
+FileNotFoundError:
+
+Definition: Occurs when a file or directory is requested but doesn’t exist.
+
+Example: open("non_existent_file.txt")
+
+Explanation: Trying to open a file that doesn’t exist.
+
+IOError:
+
+Definition: Raised when an input/output operation fails.
+
+Example: open("file.txt", "r").write("text")
+
+Explanation: Writing to a file opened in read-only mode.
+
+OverflowError:
+
+Definition: Happens when a calculation exceeds the maximum limit for a numeric type.
+
+Example: import math; math.exp(1000)
+
+Explanation: Exceeding the maximum limit for a numeric type.
+
+MemoryError:
+
+Definition: Occurs when an operation runs out of memory.
+
+Example: x = [1] * (10**10)
+
+Explanation: Creating a list too large for memory.
+
+RecursionError:
+
+Definition: Raised when the maximum recursion depth is exceeded.
+
+Example: def recurse(): recurse(); recurse()
+
+Explanation: Exceeding the maximum recursion depth.
+
+StopIteration:
+
+Definition: Occurs when the next() function has no more items to return.
+
+Example: it = iter([]); next(it)
+
+Explanation: Calling next() on an exhausted iterator.
+
+AssertionError:
+
+Definition: Raised when an assert statement fails.
+
+Example: assert 1 == 2
+
+Explanation: Assertion condition fails.
+
+NotImplementedError:
+
+Definition: Occurs when an abstract method is not implemented.
+
+Example: raise NotImplementedError("Feature not implemented")
+
+Explanation: Explicitly raising this error for unfinished code.
+
+RuntimeError:
+
+Definition: Raised when a generic error occurs that doesn’t fit into other categories.
+
+Example: raise RuntimeError("Something went wrong")
+
+Explanation: Generic runtime error.
+
+KeyboardInterrupt:
+
+Definition: Happens when the user interrupts the program execution (e.g., Ctrl+C).
+
+Example: (Press Ctrl+C while a script is running.)
+
+Explanation: Manually interrupting the program.
+
+
 
 Happy coding!
