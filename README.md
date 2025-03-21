@@ -1634,7 +1634,7 @@ print(city)  # New York
 ---
 
 
- Exception Errors with their definitions, one-line examples, and explanations:
+ ### Exception Errors with their definitions, one-line examples, and explanations:
 
 SyntaxError:
 
